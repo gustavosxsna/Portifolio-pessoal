@@ -1,0 +1,71 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Gustavo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Portifolio Pessoal</h1>
+    <nav>
+       <div class="font-controls" role="group" aria-label="Tamanho do texto">
+        <button type="button" id="decreaseFont" aria-label="Diminuir tamanho das letras">-</button>
+        <button type="button" id="increaseFont" aria-label="Aumentar tamanho das letras">+</button>
+        <button type="button" id="resetFont" aria-label="Resetar tamanho das letras">R</button>
+       </div>
+       <div class="theme-controls">
+        <button onclick="alterarTema('claro')">Claro</button>
+        <button onclick="alterarTema('escuro')">Escuro</button>
+        <button onclick="alterarTema('contraste')">Alto contraste</button>
+    </div>
+    <ul class="nav-links">
+        <li><a class="inicio" href="#">Inicio</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+    </nav>
+    </header>
+    <main class="conteudo">
+    <div class="introdução">            
+            <h1>Portifolio Pessoal</h1>
+            <h2 class="nome">Gustavo alves nunes</h2>
+            <p>Desenvolvedor Web</p>
+            <div>
+                <a id="verprojetos" href="#projetos">Veja meus projetos</a>
+                <a id="entrecontato" href="#contato">Entre em contato</a>
+            </div>
+    </div>
+   <div id="sobre" class="Sobre">
+    <h2>Sobre mim</h2>
+    <p>Meu nome é Gustavo e eu sou estudante do senac e esse é o meu portfolio pessoal</p>
+    <div class="habilidades">
+        <p>Minhas habilidades são</p>
+        <section id="h-javascript">
+        <p>3</p>
+        <p>JavaScript</p>
+        </section>
+        <section id="h-html">
+        <p>5</p>
+        <p>HTML</p>
+        </section>
+        <section id="h-css">
+        <p>1</p>
+        <p>CSS</p>
+        </section>
+    </div>
+   </div>
+   <div id="projetos" class="projeto">
+    <p>Meu github</p>
+    <p>gustavosxsna</p>
+    <a href="https://github.com/gustavosxsna">https://github.com/gustavosxsna</a>
+   </div>
+   <div id="contato" class="contato">
+   <p id="email">email:Gustavosxsna@gmail.com</p>
+   <p id="Telefone">Telefone:+55 (84) 99191-2012</p>
+   </div>
+   <script src="js/script.js"></script>
+    </main>
+</body>
+</html>
